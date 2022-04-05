@@ -32,38 +32,46 @@ html{
     -o-background-size: cover;
     background-size: cover;
 }
-/* body{
+body{
+    font-size: 1rem;
+    font-family: 'Permanent Marker','sans-serif','cursive';
+    
 
+}
 
-
-
-
-} */
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 /* Basic */
-/*  
-.interrobang {
-    width: 100%;
-    height: auto;
-} */
-.overlay{
+.nav-list{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+   
+}
+.nav-item:first-child{
+
+    color: white;
+    margin-right: auto;
+    margin-left: 2em;
+}
     
-
-}
+    
+   
 .fa-brands{
-    color:white;
-    position:relative
+color: white;
+}
+.fa-solid{
+color: white;
 }
 
-.fa-solid{
-    color:white;
-    position: relative;
-}
 
 
 
