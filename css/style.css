@@ -81,6 +81,7 @@ color: white;
 /* Phone Styles 
 /*******************************************/
 @media screen and (min-width: 700px){
+   
     .nav-list{
         display: flex;
         flex-direction: row;
@@ -88,7 +89,8 @@ color: white;
         gap: 10px;
         list-style: none;
        
+       
+    }  
     
        
-    }
-}
+    };
